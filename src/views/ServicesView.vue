@@ -1,8 +1,6 @@
 <template>
     <div>
-        <div class="h-[15rem] bg-black text-white text-[5rem] px-20 mb-5 flex items-center">
-            <div>Services</div>
-        </div>
+        <page-header>Services</page-header>
         <div class="mx-[25%] my-20">
             <section :class="serviceSectionClasses">
                 <h3 :class="serviceHeaderClasses">Small Group Sessions</h3>
@@ -49,11 +47,16 @@
                 <p>Prices from £15.</p>
             </section>
         </div>
+        <div class="w-full flex justify-center mb-30">
+            <link-button link="/contact">Contact Me</link-button>
+        </div>
+
     </div>
 </template>
 
 <script lang="ts" setup>
-
+import LinkButton from '../components/LinkButton.vue'
+import PageHeader from '../components/PageHeader.vue'
 const serviceHeaderClasses = ["font-extrabold", "text-2xl", "mb-5"]
 const serviceSectionClasses = ["mb-20"]
 </script>

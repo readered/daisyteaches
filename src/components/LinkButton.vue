@@ -1,5 +1,5 @@
 <template>
-    <a :href="props.link" :class="buttonClasses">{{ props.text }}</a>
+    <a :href="props.link" :class="buttonClasses">{{ props.text }}<slot></slot></a>
 </template>
 
 <script setup lang="ts">
