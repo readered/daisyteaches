@@ -1,7 +1,7 @@
 <template>
     <div>
         <page-header>Testimonials</page-header>
-        <div class="grid grid-cols-2 gap-10 mx-[20%] mb-10">
+        <div class="grid grid-cols-2 gap-10 mx-[15%] mb-10">
             <div v-for="testimonial in testimonials" class="border-l-5 p-5">
                 <div class="text-3xl mb-5">"{{ testimonial.quote }}"</div>
                 <div class="italic">{{ testimonial.by }}</div>
