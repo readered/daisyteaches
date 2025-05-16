@@ -40,7 +40,7 @@ import LinkButton from '../components/LinkButton.vue'
 
 <style scoped>
 p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 2rem;
   font-family: Jost, sans-serif;
   font-weight: lighter;
