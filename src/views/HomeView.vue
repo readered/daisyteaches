@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import LinkButton from '../components/LinkButton.vue'
 
-const buttonClasses = ["rounded-md", "border", "text-center", "text-3xl", "p-5", "border-2 border-stone-600 text-stone-600 font-medium rounded-lg hover:bg-stone-200 transition duration-300"]
+//const buttonClasses = ["rounded-md", "border", "text-center", "text-3xl", "p-5", "border-2 border-stone-600 text-stone-600 font-medium rounded-lg hover:bg-stone-200 transition duration-300"]
 </script>
 
 <template>

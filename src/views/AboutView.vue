@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <page-header>About</page-header>
-    <div class="mt-5 mx-[20%] grid grid-cols-4">
+    <div class="mt-5 mx-5 lg:mx-[20%] grid grid-cols-4">
       <div>
         <img class="rounded-2xl w-full" src="../assets/daisy-profile-edited.jpg" alt="Daisy Teaches">
       </div>
