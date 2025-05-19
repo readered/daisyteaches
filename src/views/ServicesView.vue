@@ -63,7 +63,6 @@ const serviceSectionClasses = ["mb-20"]
 
 <style scoped>
 p {
-  font-size: 1.2rem;
   margin-bottom: 2rem;
   font-family: Jost, sans-serif;
   font-weight: lighter;

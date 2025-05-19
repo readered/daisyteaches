@@ -3,7 +3,7 @@
     <page-header>Testimonials</page-header>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-10 lg:mx-[15%] mb-10">
       <div v-for="testimonial in testimonials" :key="testimonial.quote" class="border-l-5 p-5">
-        <div class="text-3xl mb-5">"{{ testimonial.quote }}"</div>
+        <div class="text-xl md:text-3xl mb-5">"{{ testimonial.quote }}"</div>
         <div class="italic">{{ testimonial.by }}</div>
       </div>
     </div>

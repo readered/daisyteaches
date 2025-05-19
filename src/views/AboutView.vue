@@ -1,8 +1,8 @@
 <template>
   <div class="">
     <page-header>About</page-header>
-    <div class="mt-5 mx-5 lg:mx-[20%] grid grid-cols-4">
-      <div>
+    <div class="mt-5 mx-5 lg:mx-[20%] md:grid md:grid-cols-4">
+      <div class="float-left m-3 md:m-0 w-1/3 md:w-full md:float-none">
         <img class="rounded-2xl w-full" src="../assets/daisy-profile-edited.jpg" alt="Daisy Teaches">
       </div>
       <div class="col-span-3 px-10 pt-5">
@@ -40,7 +40,6 @@ import LinkButton from '../components/LinkButton.vue'
 
 <style scoped>
 p {
-  font-size: 1.4rem;
   margin-bottom: 2rem;
   font-family: Jost, sans-serif;
   font-weight: lighter;
