@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black h-20 md:h-30">
-    <div class="absolute left-0 h-full md:mt-5">
+    <div class="absolute left-0 h-full mt-2 md:mt-6">
       <daisy-teaches-menu class=""></daisy-teaches-menu>
     </div>
 

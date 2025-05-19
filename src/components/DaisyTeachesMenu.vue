@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="p-5">
-      <button class="burger-btn" aria-label="Menu" @click="isOpen = !isOpen">
+      <button :class="['burger-btn text-xs md:text-sm', isOpen ? 'active' : '']" aria-label="Menu"
+        @click="isOpen = !isOpen">
         <span class="burger-line"></span>
         <span class="burger-line"></span>
         <span class="burger-line"></span>
@@ -43,8 +44,8 @@ const links = [
 
 <style scoped>
 .burger-btn {
-  width: 40px;
-  height: 30px;
+  width: 2.5em;
+  height: 1.8em;
   position: relative;
   background: transparent;
   border: none;
@@ -58,15 +59,15 @@ const links = [
 .burger-line {
   display: block;
   width: 100%;
-  height: 4px;
+  height: 0.25em;
   background: white;
-  border-radius: 2px;
+  border-radius: 0.125em;
   transition: all 0.3s ease;
 }
 
 /* Optional animation when clicked */
 .burger-btn.active .burger-line:nth-child(1) {
-  transform: translateY(13px) rotate(45deg);
+  transform: translateY(0.8em) rotate(45deg);
 }
 
 .burger-btn.active .burger-line:nth-child(2) {
@@ -74,6 +75,6 @@ const links = [
 }
 
 .burger-btn.active .burger-line:nth-child(3) {
-  transform: translateY(-13px) rotate(-45deg);
+  transform: translateY(-0.8em) rotate(-45deg);
 }
 </style>
